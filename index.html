@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="eng">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <meta
+      name="viewport"
+      content="user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, width=device-width"
+    />
+    <title>Admin</title>
+    <link href="/styles/style.css" rel="stylesheet" />
+    <link href="/styles/progressbar.css" rel="stylesheet" />
+  </head>
+  <body onresize="myFunction()" onscroll="viewPort()">
+    <!-- Nav bar -->
+    <section id="navbar" class="container">
+      <div class="navbar">
+        <div class="brand">
+          <a href="#"
+            ><img
+              class="icon-color-filter"
+              src="/assets/images/butterfly-icon.svg"
+              alt="brand"
+          /></a>
+        </div>
+
+        <div class="notification">
+          <a href="#"
+            ><img
+              class="icon-color-filter"
+              src="/assets/images/bell-icon.svg"
+              alt="brand"
+          /></a>
+        </div>
+        <div class="nav-list">
+          <ul id="navlist">
+            <li id="home" class="active">
+              <a href="#home"
+                ><img
+                  class="icon-color-filter"
+                  src="/assets/images/home-icon.svg"
+                  alt="home"
+              /></a>
+            </li>
+            <li id="feed">
+              <a href="#feed"
+                ><img
+                  class="icon-color-filter"
+                  src="/assets/images/feed-icon.svg"
+                  alt="feed"
+              /></a>
+            </li>
+            <li id="notification">
+              <a href="#notifications"
+                ><img
+                  class="icon-color-filter"
+                  src="/assets/images/list-icon.svg"
+                  alt="lists"
+              /></a>
+            </li>
+            <li id="profile">
+              <a href="#profile"
+                ><img
+                  class="icon-color-filter"
+                  src="/assets/images/user-icon.svg"
+                  alt="profile"
+              /></a>
+            </li>
+            <li class="search-nav" id="search">
+              <a href="#search"
+                ><img
+                  class="icon-color-filter"
+                  src="/assets/images/search-icon.svg"
+                  alt="search"
+              /></a>
+            </li>
+          </ul>
+        </div>
+        <div class="logout">
+          <a href="#"
+            ><img
+              class="icon-color-filter"
+              src="/assets/images/logout-icon.svg"
+              alt="brand"
+          /></a>
+        </div>
+      </div>
+    </section>
+    <!-- End of Nav bar -->
+    <div class="main-container responsive-div">
+      <div class="container">
+        <!-- User Content section -->
+        <div id="user-container">
+          <div class="user-container section">
+            <img src="/assets/images/user.jpg" />
+            <div class="user-welcome">
+              <h2>Hi Mike,</h2>
+              <p>Welcome back</p>
+            </div>
+          </div>
+        </div>
+        <!-- End of User Content section -->
+        <!-- Account Details section -->
+        <div id="account-details-container">
+          <div class="account-details-container section">
+            <div class="account-section">
+              <div>
+                <p>Today</p>
+                <h1>＄19,890</h1>
+                <p class="subtitle">Account Balance</p>
+              </div>
+            </div>
+            <div class="account-section flex-column">
+              <div>
+                <p class="text-3">＄4,000</p>
+                <p class="subtitle">Year-to-Date</p>
+              </div>
+              <div>
+                <p class="text-3">＄1,890</p>
+                <p class="subtitle">Total Interest</p>
+              </div>
+            </div>
+            <div class="account-section">
+              <select class="btn" name="cars" id="cars">
+                <option value="" disabled>I want to..</option>
+                <option value="saab">ABCD</option>
+                <option value="mercedes">ABCE</option>
+                <option value="audi">ABCF</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="account-transaction-container section">
+            <h3 class="text-1">Recent Transactions</h3>
+            <div>
+              <div class="transactions">
+                <p class="subtitle">2020-08-01</p>
+                <p>Withdrawal Transfer to Bank-XXX11</p>
+              </div>
+              <div class="transactions">
+                <p class="subtitle">2020-08-01</p>
+                <p>Withdrawal Transfer to Bank-XXX11</p>
+              </div>
+              <div class="transactions">
+                <p class="subtitle">2020-08-01</p>
+                <p>Withdrawal Transfer to Bank-XXX11</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container max-width">
+        <div class="retirement-container section">
+          <div class="retirement-heading">
+            <span class="text-color">Retirement Income</span>
+            <p>Starting year <span>2051</span></p>
+          </div>
+          <div class="retirement-section">
+            <div class="section-1">
+              <h2>＄300,000</h2>
+              <p class="subtitle">My goal</p>
+              <div class="colored-line"></div>
+            </div>
+            <div class="retirement section-2">
+              <p class="text-2">59%</p>
+              <p class="subtitle">Goal Achieved</p>
+              <div class="colored-line"></div>
+            </div>
+            <div class="retirement section-3">
+              <p class="text-2">K 300</p>
+              <p class="subtitle">Est. Monthly income</p>
+              <div class="colored-line"></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="contributions-chart">
+          <p class="text-1">Contributions Overtime</p>
+          <div class="legend-section">
+            <div class="legend-column">
+              <div class="legend legend-box-1"></div>
+              <p class="subtitle">Employer</p>
+              <p class="text-3">＄73,500</p>
+            </div>
+
+            <div class="legend-column">
+              <div class="legend legend-box-2"></div>
+              <p class="subtitle">Employee</p>
+              <p class="text-3">＄52,500</p>
+            </div>
+
+            <div class="legend-column">
+              <div class="legend legend-box-3"></div>
+              <p class="subtitle">Total Interest</p>
+              <p class="text-3">＄122,597</p>
+            </div>
+          </div>
+          <div class="chart section">
+            <canvas onresize="funResponsive()" id="chart"></canvas>
+          </div>
+        </div>
+
+        <div class="input-container section" id="visibleDiv">
+          <p class="text-1">How do i compare to my peers?</p>
+          <p class="subtitle font-small">
+            These numbers represent current goal achievements
+          </p>
+          <div class="flex">
+            <form id="input-grid">
+              <div class="input-grid">
+                <label for="age"><p class="text-4">Age:</p></label>
+                <select id="age" name="age">
+                  <option value="under30">Under 30</option>
+                  <option value="above30">Above 30</option>
+                </select>
+
+                <label for="salary"><p class="text-4">Salary:</p></label>
+                <select id="salary" name="salary">
+                  <option value="K20K30">K 20 - K 30</option>
+                  <option value="K30K40">K 30 - K 40</option>
+                  <option value="K40K50">K 40 - K 50</option>
+                </select>
+
+                <label for="gender"><p class="text-4">Age:</p></label>
+                <select id="gender" name="gender">
+                  <option value="female">Female</option>
+                  <option value="male">Male</option>
+                  <option value="others">Others</option>
+                </select>
+              </div>
+            </form>
+            <div class="progressbar-container">
+              <div class="progressbar-section">
+                <div class="progressbar">
+                  <div
+                    role="progressbar"
+                    aria-valuenow="75"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                    style="--value: 75"
+                  ></div>
+                </div>
+                <p>Average</p>
+              </div>
+              <div class="progressbar-section">
+                <div class="progressbar">
+                  <div
+                    role="progressbar"
+                    aria-valuenow="97"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                    style="--value: 97"
+                  ></div>
+                </div>
+                <p>Top</p>
+              </div>
+              <div class="progressbar-section">
+                <div class="progressbar">
+                  <div
+                    role="progressbar"
+                    aria-valuenow="55"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                    style="--value: 55"
+                  ></div>
+                </div>
+                <p>Me</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="retirement-strategy-container section">
+          <p class="text-1">Retirement Strategy</p>
+          <div class="range-selector">
+            <p class="text-4">Employee Contribution</p>
+            <div class="flex">
+              <div class="slider-container">
+                <span class="bar"><span id="fillCon" class="fill"></span></span>
+                <input
+                  id="sliderCon"
+                  class="slider"
+                  type="range"
+                  min="0"
+                  max="100"
+                  value="12"
+                  oninput="sliderChangeCon(this.value)"
+                />
+              </div>
+              <div class="slider-value" id="slider-value-con">
+                <p class="text-4">12%</p>
+              </div>
+            </div>
+          </div>
+
+          <div id="slider-value-con" class="range-selector">
+            <p class="text-4">Retirement Age</p>
+            <div class="flex">
+              <div class="slider-container">
+                <span class="bar"><span id="fillAge" class="fill"></span></span>
+                <input
+                  id="sliderAge"
+                  class="slider"
+                  type="range"
+                  min="0"
+                  max="100"
+                  value="55"
+                  oninput="sliderChangeAge(this.value)"
+                />
+              </div>
+              <div id="slider-value-age" class="slider-value">
+                <p class="text-4">55</p>
+              </div>
+            </div>
+          </div>
+
+          <div
+            id="slider-value-con"
+            class="range-selector"
+            style="padding-top: 10px"
+          >
+            <div class="flex">
+              <p class="text-4">Employer Contribution</p>
+              <div class="slider-value">
+                <p class="text-4">8.4%</p>
+              </div>
+            </div>
+          </div>
+
+          <div id="slider-value-con" class="range-selector">
+            <div class="flex">
+              <p class="text-4">Interest Rate</p>
+              <div class="slider-value">
+                <p class="text-4">5.4%</p>
+              </div>
+            </div>
+          </div>
+          <div id="btn-container" class="btn-container">
+            <button id="btn" class="btn">Update</button>
+          </div>
+          <div class="float">
+            <span class="text-color link">View Help Docs ></span>
+          </div>
+          <div class="ad-section" id="ad-section">
+            <p class="text-gray">Are you considering a</p>
+            <p class="text-bold">Housing Advance?</p>
+            <p class="subtitle">Limited time reduced interest</p>
+            <span class="text-color link">Learn More ></span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End of Account Details section -->
+    <script src="/js/app.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="/js/chart.js"></script>
+    <script>
+      const myFunction = () => {
+        let list = document.getElementsByClassName("progressbar");
+        for (let div of list) {
+          div.style.height = div.offsetWidth + "px";
+        }
+      };
+    </script>
+  </body>
+</html>
