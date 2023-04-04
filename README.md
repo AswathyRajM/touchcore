@@ -1,3 +1,4 @@
+# TouchCore Admin Panel
 
 
-https://snazzy-sprinkles-f0d9fb.netlify.app
+## Developd using HTML5 CSS3 ANd JavaScript
