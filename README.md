@@ -2,3 +2,5 @@
 
 
 ## Developd using HTML5 CSS3 ANd JavaScript
+
+### Deployed using Netlify
